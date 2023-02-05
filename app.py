@@ -1,4 +1,4 @@
-from models.person import Person
+from models.student import Student
 
-dan = Person(1, 'Dan Poulsen', 'Comp. Sci.')
-print(dan)
+student = Student(1, "Dan Poulsen", "Comp. Sci.", 80)
+print(student)
