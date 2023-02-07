@@ -4,6 +4,9 @@ from models.person import Person
 class Student(Person):
     """Student class for the dbbook database."""
 
+    def __init__(self) -> None:
+        pass
+
     def __init__(self, id: int, name: str, dept_name: str, total_creds: int) -> None:
         """Initialize a Student object."""
         self._total_creds = total_creds

@@ -1,6 +1,9 @@
 class Person:
     """Person class for the dbbook database."""
 
+    def __init__(self) -> None:
+        pass
+
     def __init__(self, id: int, name: str, dept_name: str) -> None:
         """Initialize a Person object."""
         self._id = id
